@@ -29,3 +29,8 @@ kbd {
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 5px black;
 }
+
+body {
+  background-image: url("https://www.smartcitiesworld.net/AcuCustom/Sitename/DAM/017/Tel_Aviv_Adobe.jpg");
+  background-size: cover;
+}

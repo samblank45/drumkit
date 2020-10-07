@@ -70,7 +70,7 @@
       this.classList.remove('playing');
     }
    
-    const keys = docutment.querySelectorAll('.key');
+    const keys = document.querySelectorAll('.key');
     keys.forEach(key => key.addEventListener('transitioned', removeTransition))
     window.addEventListener('keydown', playSound);
   </script>
